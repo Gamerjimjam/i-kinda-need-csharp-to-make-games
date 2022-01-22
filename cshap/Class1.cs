@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,9 +16,9 @@ namespace csmath
             if (x == y)
             {
                 Console.WriteLine("equal");
-            {
+            } else if(x > y) {
                 Console.WriteLine("y is larger then x");
-            {
+            } else if(y > x) {
                 Console.WriteLine("x is bigger then y or other ");
             }
         }
