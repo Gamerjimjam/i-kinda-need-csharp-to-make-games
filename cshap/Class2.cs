@@ -13,7 +13,18 @@ namespace penis
         {
             Console.WriteLine("type in sum");
             string value = Console.ReadLine();
-            Console.WriteLine( "did you type this:" + value);
+            Console.WriteLine( "did you type this: \n" + value);
+
+            Console.WriteLine("hey kiddie whats your age :)))");
+            string age = Console.ReadLine();
+            int paris = Convert.ToInt32(age);
+            if (paris < 18)
+            {
+                Console.WriteLine("shawty looking bad asf tho");
+            } else if (paris == 12)
+            {
+                Console.WriteLine("ZAMN");
+            } else { Console.WriteLine("zad ;'("); }
         }
     }
 }
