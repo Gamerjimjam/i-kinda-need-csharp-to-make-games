@@ -16,11 +16,21 @@ namespace csmath
             if (x == y)
             {
                 Console.WriteLine("equal");
-            } else if (y >= x)
+
+            }
+            else if (y >= x)
             {
                 Console.WriteLine("y is larger then x");
-            } else
+
+            }
+            else if (y > x)
+
             {
+                Console.WriteLine("y is larger then x");
+            }
+            else if (x < y)
+            {
+
                 Console.WriteLine("x is bigger then y or other ");
             }
         }
